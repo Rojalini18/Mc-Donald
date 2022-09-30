@@ -1,0 +1,48 @@
+body {
+  width: 95%;
+  height: 550px;
+  margin: auto;
+  display: flex;
+  background-color: #d70508;
+  font-family: serif;
+}
+
+#box {
+  margin-top: 20px;
+  width: 75%;
+  height: 550px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-evenly;
+  background-color: #d70508;
+  margin-left: 20px;
+}
+
+#rightbox {
+  margin-top: 20px;
+  width: 25%;
+  height: 550px;
+  background-color: #ffbb0e;
+  text-align: left;
+  font-size: 15px;
+}
+
+#imagelogo {
+  margin-left: 17%;
+  margin-bottom: 20%;
+  margin-top: 4%;
+}
+n m,
+input {
+  width: 50px;
+  height: 20px;
+}
+
+button {
+  margin-top: 40%;
+  margin-left: 35%;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #d70508;
+  color: white;
+}
